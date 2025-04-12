@@ -98,7 +98,11 @@ ul {
     color: #404bbf;
 }
 .heading-section {
-    background-color: #2e2f42;
+    background-color: rgba(46, 47, 66, 0.7);
+    background-image: url("../images/people_office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #ffffff;
     padding: 188px 0;
 }
