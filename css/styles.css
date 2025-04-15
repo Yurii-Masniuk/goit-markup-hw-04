@@ -71,7 +71,7 @@ ul {
     color: #2e2f42;
 }
 .header-nav-list-item-anchor {
-    color: #2e2f42;
+    color: #404bbf;
     padding: 24px 0;
     display: block;
     position: relative;
@@ -85,6 +85,7 @@ ul {
     bottom: -1px;
     height: 4px;
     border-radius: 2px;
+    background-color: #404bbf;
 }
 .header-nav-list-item-anchor:hover,
 .header-nav-list-item-anchor:focus {
