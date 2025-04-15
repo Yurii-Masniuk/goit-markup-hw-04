@@ -75,7 +75,7 @@ ul {
     padding: 24px 0;
     display: block;
     position: relative;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-list-item-anchor::after {
     content: "";
@@ -114,7 +114,7 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     position: relative;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-list-item-anchor:hover,
 .contacts-list-item-anchor:focus {
