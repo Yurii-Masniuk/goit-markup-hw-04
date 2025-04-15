@@ -25,6 +25,7 @@ ul {
     padding-right: 15px;
     margin: 0 auto;
 }
+/* #region header */
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -34,9 +35,6 @@ ul {
 .header-nav {
     display: flex;
     align-items: center;
-}
-.contacts-list {
-    display: flex;
 }
 .header-nav-list {
     display: flex;
@@ -74,6 +72,9 @@ ul {
 .header-nav-list-item-anchor:focus {
     color: #404bbf;
 }
+.contacts-list {
+    display: flex;
+}
 .contacts {
     font-style: normal;
     margin-left: auto;
@@ -97,6 +98,11 @@ ul {
     letter-spacing: 0.02em;
     color: #404bbf;
 }
+
+/* #endregion header */
+
+/* #region heading */
+
 .heading-section {
     max-width: 1440px;
     margin: 0 auto;
@@ -149,6 +155,11 @@ ul {
 button {
     cursor: pointer;
 }
+
+/* #endregion heading */
+
+/* #region features */
+
 .features-section {
     padding: 120px 0;
     
@@ -190,6 +201,11 @@ button {
 .features-item {
     width: calc((100% - 72px) / 4);
 }
+
+/* #endregion features */
+
+/* #region team */
+
 .team-section {
     background: #f4f4fd;
     padding: 120px 0;
@@ -255,21 +271,11 @@ height: 40px;
 border-radius: 50%;
 background-color: #4d5ae5;
 }
-.icon-list .team-social-link:hover,
-.icon-list .team-social-link:focus
- {
-    background-color: #31D0AA;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-list .team-social-link:hover .icon,
-.icon-list .team-social-link:focus .icon
- {
-    fill: #ffffff;
-    transition-duration: 250ms;
-    transition-timing-function: 
-    cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+/* #endregion team */
+
+/* #region portfolio */
+
 .portfolio-section {
     padding: 120px 0;
 }
@@ -313,6 +319,11 @@ background-color: #4d5ae5;
     line-height: 150%;
     letter-spacing: 0.02em;
 }
+
+/* #endregion portfolio */
+
+/* #region footer */
+
 .footer-container {
     background: #2e2f42;
     padding: 100px 0;
@@ -334,7 +345,6 @@ background-color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
 }
-
 .footer-logo-studio {
     color: #f4f4fd;
 }
@@ -376,3 +386,5 @@ background-color: #4d5ae5;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* #endregion footer */
