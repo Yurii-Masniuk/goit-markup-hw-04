@@ -164,7 +164,8 @@ button {
     padding: 120px 0;
     
 }
-.features-list {
+.features-list,
+.features-list-icons {
     display: flex;
     gap: 24px;
     justify-content: center;
