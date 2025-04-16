@@ -69,21 +69,11 @@ ul {
     color: #2e2f42;
 }
 .header-nav-list-item-anchor {
-    color: #404bbf;
+    color: #2e2f42;
     padding: 24px 0;
     display: block;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-nav-list-item-anchor::after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404bbf;
 }
 .header-nav-list-item-anchor:hover,
 .header-nav-list-item-anchor:focus {
@@ -91,6 +81,13 @@ ul {
 }
 .header-nav-list-item-anchor:hover::after,
 .header-nav-list-item-anchor:focus::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
     background-color: #404bbf;
 }
 .contacts-list {
