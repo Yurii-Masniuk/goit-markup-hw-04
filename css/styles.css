@@ -371,7 +371,10 @@ background-color: #4d5ae5;
 .portfolio-title-list-item p:focus {
     transform: translateY(0%);
 }
-
+.pict-name-app {
+    position: relative;
+    overflow: hidden;
+}
 /* #endregion portfolio */
 
 /* #region footer */
