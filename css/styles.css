@@ -90,6 +90,12 @@ ul {
     border-radius: 2px;
     background-color: #404bbf;
 }
+.header-nav-list-item-anch {
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+    position: relative;
+}
 .contacts-list {
     display: flex;
 }
