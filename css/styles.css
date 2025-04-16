@@ -367,8 +367,8 @@ background-color: #4d5ae5;
     line-height: 150%;
     letter-spacing: 0.02em;
 }
-.portfolio-title-list-item p:hover,
-.portfolio-title-list-item p:focus {
+.portfolio-title-list-item:hover .p-name-app,
+.portfolio-title-list-item:focus .p-name-app {
     transform: translateY(0%);
 }
 .pict-name-app {
